@@ -1,0 +1,232 @@
+#oxy-howto-maker-data-made p,
+#oxy-howto-maker-data-made label {
+	margin: 0 !important;
+}
+.clearfix {
+	clear: both;
+	display: block;
+}
+#oxy-howto-maker-data-made {
+	box-shadow: 0 0 10px 3px #0001;
+	border-radius: 5px;
+	padding: 15px;
+}
+#oxy-howto-maker-data-made .dashicons {
+	vertical-align: middle;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-brief-wrap {
+	margin: 0 auto 10px;
+	max-width: 480px;
+}
+html[dir="rtl"] #oxy-howto-maker-data-made .oxy-howto-maker-brief-wrap {
+	direction: rtl;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-difficulty-wrap,
+#oxy-howto-maker-data-made .oxy-howto-maker-step-count-wrap {
+	border: 1px solid #dedede;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-difficulty-wrap .oxy-howto-difficulty-label {
+	flex: 1;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-difficulty-wrap .oxy-howto-difficulty-div-wrap {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-difficulty-wrap .oxy-howto-difficulty-div-wrap .oxy-howto-difficulty-div {
+	float: right;
+	background: #ddd;
+	width: 20px;
+	height: 7px;
+	border-radius: 5px;
+	box-shadow: 0 0 0 1px #ccc;
+	margin-left: 5px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-difficulty-wrap .oxy-howto-difficulty-div-wrap > .oxy-howto-difficulty-div.active {
+	background: #9e9b9b;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-estimated-cost {
+	border: 1px solid #dedede;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-estimated-cost > p {
+	margin: 0 0 0 10px;
+	float: right;
+	font-size: 17px;
+	font-weight: normal;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-estimated-cost .oxy-howto-estimated-cost-label,
+#oxy-howto-maker-data-made .oxy-howto-maker-step-count-wrap .oxy-howto-step-count-label {
+	flex: 1;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-estimated-cost .oxy-howto-estimated-cost-p,
+#oxy-howto-maker-data-made .oxy-howto-maker-step-count-wrap .oxy-howto-step-count-p {
+	font-weight: 700;
+	font-size: 16px;
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	align-items: center;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-total-time {
+	border: 1px solid #dedede;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-total-time .oxy-howto-total-time-label {
+	flex: 1;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-total-time .oxy-howto-total-time-paragraph {
+	font-size: 16px;
+	font-weight: 700;
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	direction: ltr;
+}
+html[dir="rtl"] #oxy-howto-maker-data-made .oxy-howto-maker-total-time .oxy-howto-total-time-paragraph {
+	direction: rtl;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps {
+	margin-top: 20px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-step-image,
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-step-image img {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-step-image {
+	margin: 15px 0;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-step-head {
+	margin: 0 0 15px 0;
+	font-size: 24px;
+	border-top: 1px solid #ddd;
+	padding-top: 25px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-description ul {
+	margin-top: 15px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-direction-head {
+	margin-bottom: 15px;
+	font-size: 1.1rem;
+	line-height: 180%;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-tip-head {
+	margin: 15px 0 !important;
+	font-size: 1.1rem;
+	padding: 10px;
+	border-radius: 5px;
+	border-left: 4px solid #777;
+	background: #f9f9f9;
+	color: #727272;
+}
+html[dir="rtl"] #oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-tip-head {
+	border-right: 4px solid #777;
+	border-left: none;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies,
+#oxy-howto-maker-data-made .oxy-howto-maker-tools {
+	margin-top: 20px;
+	border-left: 4px solid #777;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #f9f9f9;
+}
+html[dir="rtl"] #oxy-howto-maker-data-made .oxy-howto-maker-supplies,
+html[dir="rtl"] #oxy-howto-maker-data-made .oxy-howto-maker-tools {
+	border-right: 4px solid #777;
+	border-left: none;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies .oxy-howto-supplies-label,
+#oxy-howto-maker-data-made .oxy-howto-maker-tools .oxy-howto-tools-label {
+	margin: 0;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-tools .oxy-howto-tools-li,
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies .oxy-howto-supplies-li p {
+  padding-left: 20px;
+}
+html[dir="rtl"] #oxy-howto-maker-data-made .oxy-howto-maker-tools .oxy-howto-tools-li,
+html[dir="rtl"] #oxy-howto-maker-data-made .oxy-howto-maker-supplies .oxy-howto-supplies-li p {
+	padding-right: 20px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies ul,
+#oxy-howto-maker-data-made .oxy-howto-maker-tools ul {
+	list-style: disc;
+	margin: 0 30px;
+	padding: 0;
+	font-size: 20px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies ul.oxy-howto-list-unstyled,
+#oxy-howto-maker-data-made .oxy-howto-maker-tools ul.oxy-howto-list-unstyled {
+	list-style: none;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies ul li,
+#oxy-howto-maker-data-made .oxy-howto-maker-tools ul li {
+	font-size: 1.1rem;
+	line-height: 180%;
+	margin: 0;
+}
+html[dir="ltr"] #oxy-howto-maker-data-made .oxy-howto-maker-tools ul li {
+	margin: 5px 10px 0 0;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies ul li a,
+#oxy-howto-maker-data-made .oxy-howto-maker-tools ul li a {
+	text-decoration: none;
+}
+
+#oxy-howto-maker-data-made p:empty {
+	display: none;
+}
+
+/* PLEASE DO NOT EDIT THIS PART DIRECTLY */
+/*oxy-customize-start*/
+#oxy-howto-maker-data-made .dashicons {
+	color: #333333;
+}
+#oxy-howto-maker-data-made h2 {
+	/*color: #333333;*/
+}
+#oxy-howto-maker-data-made a {
+	/*color: #333333;*/
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies .oxy-howto-supplies-label {
+	font-size: 22px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-tools .oxy-howto-tools-label {
+	font-size: 22px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-supplies ul li {
+	font-size: 1.1rem;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-tools ul li {
+	font-size: 1.1rem;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-step-head {
+	font-size: 24px;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-direction-head {
+	font-size: 1.1rem;
+}
+#oxy-howto-maker-data-made .oxy-howto-maker-steps .oxy-howto-tip-head {
+	font-size: 1.1rem;
+}
+/*oxy-customize-end*/

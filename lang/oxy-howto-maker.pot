@@ -1,0 +1,392 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OxyPlug - Howto Maker\n"
+"POT-Creation-Date: 2021-10-12 22:47+0400\n"
+"PO-Revision-Date: 2023-04-15 13:01+0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: index.php:121 index.php:122
+msgid "About Oxy HowTo Maker"
+msgstr ""
+
+#: index.php:126
+msgid "Make HowTo"
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+#: index.php:127
+msgid "Let's make some awesome howtos with Oxy Howto Maker :)"
+msgstr ""
+
+#: index.php:139
+#, php-format
+msgid "You can not add more than %s supplies in free version."
+msgstr ""
+
+#: index.php:141
+msgid "The post content is required."
+msgstr ""
+
+#: index.php:142
+msgid "The post title is required."
+msgstr ""
+
+#: index.php:143
+msgid "The description is required."
+msgstr ""
+
+#: index.php:144
+msgid "The total time is invalid."
+msgstr ""
+
+#: index.php:145
+msgid "The price currency is invalid."
+msgstr ""
+
+#: index.php:146
+msgid "The estimated cost is required."
+msgstr ""
+
+#: index.php:147
+msgid "The estimated cost is invalid."
+msgstr ""
+
+#: index.php:148
+msgid "The featured image is required."
+msgstr ""
+
+#: index.php:149
+#, php-format
+msgid "The supply name %s is invalid."
+msgstr ""
+
+#: index.php:150
+msgid "The supply link %s is invalid."
+msgstr ""
+
+#: index.php:151
+#, php-format
+msgid "The tool name %s is invalid."
+msgstr ""
+
+#: index.php:152
+msgid "The tool link %s is invalid."
+msgstr ""
+
+#: index.php:154
+msgid "HowTo Successfully Generated."
+msgstr ""
+
+#: index.php:156
+msgid "Difficulty"
+msgstr ""
+
+#: index.php:157
+msgid "Step Count"
+msgstr ""
+
+#: index.php:158
+msgid "Estimated Cost"
+msgstr ""
+
+#: index.php:159 index.php:479 index.php:504
+msgid "Supply"
+msgstr ""
+
+msgid "Supplies"
+msgstr ""
+
+msgid "Material"
+msgstr ""
+
+msgid "Materials"
+msgstr ""
+
+msgid "Necessary Item"
+msgstr ""
+
+msgid "Necessary Items"
+msgstr ""
+
+#: index.php:160 index.php:539 index.php:564
+msgid "Tool"
+msgstr ""
+
+#: index.php:161
+msgid "Steps"
+msgstr ""
+
+#: index.php:162
+msgid "Step"
+msgstr ""
+
+#: index.php:163
+msgid "Tip"
+msgstr ""
+
+#: index.php:164
+msgid "Total Time"
+msgstr ""
+
+#: index.php:165
+msgid "day"
+msgstr ""
+
+#: index.php:166
+msgid "hour"
+msgstr ""
+
+#: index.php:167
+msgid "minute"
+msgstr ""
+
+#: index.php:165
+msgid "Day"
+msgstr ""
+
+#: index.php:166
+msgid "Hour"
+msgstr ""
+
+#: index.php:167
+msgid "Minute"
+msgstr ""
+
+#: index.php:168
+msgid "&"
+msgstr ""
+
+#: index.php:318 index.php:926
+msgid "Howto Maker"
+msgstr ""
+
+#: index.php:395 index.php:915
+msgid "Make It"
+msgstr ""
+
+#: index.php:399 index.php:901
+msgid "Fold All"
+msgstr ""
+
+#: index.php:401 index.php:903
+msgid "Unfold All"
+msgstr ""
+
+#: index.php:404 index.php:906
+msgid "Goto Step #"
+msgstr ""
+
+#: index.php:406 index.php:908
+msgid "Select Step"
+msgstr ""
+
+#: index.php:412
+msgid "General"
+msgstr ""
+
+#: index.php:421 index.php:1497
+msgid "Select"
+msgstr ""
+
+#: index.php:431
+msgid "Price Currency"
+msgstr ""
+
+#: index.php:434
+msgid "Select Currency"
+msgstr ""
+
+#: index.php:458
+msgid "Description"
+msgstr ""
+
+#: index.php:476
+msgid "Add Supply"
+msgstr ""
+
+msgid "Add Material"
+msgstr ""
+
+msgid "Add Necessary Item"
+msgstr ""
+
+#: index.php:484 index.php:508 index.php:544 index.php:569
+msgid "Name"
+msgstr ""
+
+#: index.php:493 index.php:516 index.php:553 index.php:577
+msgid "Link"
+msgstr ""
+
+#: index.php:497 index.php:522 index.php:557 index.php:583
+msgid "Nofollow"
+msgstr ""
+
+#: index.php:536
+msgid "Add Tool"
+msgstr ""
+
+#: index.php:641 index.php:783
+msgid "Delete Step %s"
+msgstr ""
+
+#: index.php:646 index.php:788
+msgid "Step Name"
+msgstr ""
+
+#: index.php:660 index.php:665 index.php:798 index.php:802 index.php:1539
+msgid "Step Direction"
+msgstr ""
+
+#: index.php:673 index.php:699 index.php:728 index.php:810 index.php:832
+msgid "Add Another Direction"
+msgstr ""
+
+#: index.php:737
+msgid "Delete Tip %s"
+msgstr ""
+
+#: index.php:848
+msgid "Delete Direction %s"
+msgstr ""
+
+#: index.php:678 index.php:704 index.php:733 index.php:815 index.php:837
+msgid "Add Tip"
+msgstr ""
+
+#: index.php:686 index.php:715
+#, php-format
+msgid "Tip %s"
+msgstr ""
+
+#: index.php:691 index.php:720 index.php:824 index.php:1540
+msgid "Step Tip"
+msgstr ""
+
+#: index.php:740 index.php:843
+msgid "Step Image"
+msgstr ""
+
+#: index.php:747 index.php:848
+#, php-format
+msgid "Upload Step %s Image"
+msgstr ""
+
+#: index.php:751 index.php:852
+#, php-format
+msgid "Delete Step %s Image"
+msgstr ""
+
+#: index.php:758
+msgid "link"
+msgstr ""
+
+#: index.php:768 index.php:864
+msgid "Add Step"
+msgstr ""
+
+#: index.php:859
+msgid "Url"
+msgstr ""
+
+#: index.php:988
+msgid "Oops..something went wrong:"
+msgstr ""
+
+#: index.php:1259
+msgid "The step is invalid."
+msgstr ""
+
+#: index.php:1266
+msgid "The difficulty is invalid."
+msgstr ""
+
+#: index.php:1270
+msgid "The oxy data for howto is invalid."
+msgstr ""
+
+#: index.php:1273
+msgid "The nonce not verified."
+msgstr ""
+
+#: index.php:1461
+msgid ""
+"The free version of oxy howto maker must be installed and activated. <br><a "
+"href=\""
+msgstr ""
+
+#: index.php:1496
+msgid "Upload image of this step"
+msgstr ""
+
+#: index.php:1524
+msgid "The name of step %s is invalid."
+msgstr ""
+
+#: index.php:1525
+#, php-format
+msgid "The direction of step %s is invalid."
+msgstr ""
+
+#: index.php:1526
+#, php-format
+msgid "The tip %s of step %s is invalid."
+msgstr ""
+
+#: index.php:1527
+msgid "The image of step %s is invalid."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Select Style"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "OxyPlug - Howto Maker"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.oxyplug.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Make HowTos with Structured Data According to the Google Developers "
+"Guidelines"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "OxyPlug"
+msgstr ""
+
+msgid "OFF"
+msgstr ""
+
+msgid "ON"
+msgstr ""
+
+msgid "Go to Step #"
+msgstr ""
+
+msgid "Short Description about This HowTo"
+msgstr ""

@@ -1,0 +1,394 @@
+:root {
+  --oxy-howto-color-white: #fff;
+  --oxy-howto-color-gray-lightest: #e5e5e5;
+  --oxy-howto-color-gray-lighter-2: #ddd;
+  --oxy-howto-color-gray-lighter: #ccc;
+  --oxy-howto-color-gray-light: #acacac;
+  --oxy-howto-color-gray-dark: #323741;
+
+  --oxy-howto-color-red-dark: #ab0000;
+}
+
+/*** Switch Start ***/
+#oxy_howto_maker_metabox .dashicons {
+  vertical-align: middle;
+}
+
+#oxy_howto_maker_metabox .dashicons.dashicons-insert,
+#oxy_howto_maker_metabox .dashicons.dashicons-remove {
+  font-size: 17px;
+}
+
+#oxy_howto_maker_metabox .switch,
+#oxy_howto_maker_side_metabox .switch {
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 26px;
+}
+
+#oxy_howto_maker_metabox .switch input,
+#oxy_howto_maker_side_metabox .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#oxy_howto_maker_metabox .slider,
+#oxy_howto_maker_side_metabox .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--oxy-howto-color-gray-lighter);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#oxy_howto_maker_metabox .slider:before,
+#oxy_howto_maker_side_metabox .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background-color: var(--oxy-howto-color-white);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#oxy_howto_maker_metabox input:checked + .slider,
+#oxy_howto_maker_side_metabox input:checked + .slider {
+  background-color: var(--wp-admin-theme-color, #00669b);
+}
+
+#oxy_howto_maker_metabox input:focus + .slider,
+#oxy_howto_maker_side_metabox input:focus + .slider {
+  --wp-admin-theme-color-local: var(--wp-admin-theme-color, #00669b);
+  box-shadow: 0 0 1px var(--wp-admin-theme-color-local);
+}
+
+#oxy_howto_maker_metabox input:checked + .slider:before,
+#oxy_howto_maker_side_metabox input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+#oxy_howto_maker_metabox .slider.round,
+#oxy_howto_maker_side_metabox .slider.round {
+  border-radius: 34px;
+}
+
+#oxy_howto_maker_metabox .slider.round:before,
+#oxy_howto_maker_side_metabox .slider.round:before {
+  border-radius: 50%;
+}
+
+#oxy_howto_maker_metabox #oxy-howto-maker-switcher {
+  margin: 20px 0 15px;
+}
+
+#oxy-howto-maker-side-switcher {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#oxy_howto_maker_metabox #oxy-howto-maker-switcher > span,
+#oxy_howto_maker_metabox #oxy-howto-maker-switcher > label,
+#oxy-howto-maker-side-switcher > span,
+#oxy-howto-maker-side-switcher > label {
+  display: inline-block !important;
+}
+
+.oxy-d-block {
+  display: block;
+}
+
+#oxy_howto_maker_metabox .fold-all,
+#oxy_howto_maker_metabox .unfold-all {
+  margin-bottom: 0;
+}
+
+#oxy_howto_maker_metabox .ltr {
+  direction: ltr;
+}
+
+#oxy_howto_maker_metabox .rtl {
+  direction: rtl;
+}
+
+#oxy_howto_maker_metabox .clearfix {
+  clear: both;
+  display: block;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-make-it,
+#oxy_howto_maker_side_metabox .inside .oxy-howto-maker-side-make-it {
+  margin-top: 10px;
+  display: block;
+  position: relative;
+}
+
+#oxy_howto_maker_side_metabox .inside .oxy-howto-maker-side-make-it {
+  width: 100%;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-make-it i,
+#oxy_howto_maker_side_metabox .inside .oxy-howto-maker-side-make-it i {
+  font-size: 18px;
+  position: absolute;
+  left: 25px;
+  top: 10px;
+}
+
+@media (min-width: 768px) {
+  #oxy_howto_maker_metabox .inside .oxy-howto-maker-make-it i,
+  #oxy_howto_maker_side_metabox .inside .oxy-howto-maker-side-make-it i {
+    top: 5px;
+  }
+}
+
+#oxy_howto_maker_metabox .inside .oxy-d-inline-block {
+  display: inline-block;
+}
+
+#oxy_howto_maker_metabox .inside h3.oxy-howto-maker-toggler {
+  cursor: pointer;
+}
+
+#oxy_howto_maker_metabox .inside h3.oxy-howto-maker-toggler > i {
+  font-size: 16px;
+  vertical-align: middle;
+  width: 13px;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-number {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+html[dir="rtl"] #oxy_howto_maker_metabox .inside .oxy-number {
+  text-align: right;
+}
+
+#oxy_howto_maker_metabox .inside [name="oxy_data[supply][title]"] {
+  margin-bottom: 10px;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-tool .oxy-number,
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-supply .oxy-number {
+  width: 100%;
+  text-align: left;
+}
+
+html[dir="rtl"] #oxy_howto_maker_metabox .inside .oxy-howto-maker-add-tool .oxy-number,
+html[dir="rtl"] #oxy_howto_maker_metabox .inside .oxy-howto-maker-add-supply .oxy-number {
+  text-align: right;
+}
+
+#oxy_howto_maker_metabox .inside img[src=""] {
+  display: none;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-d-none {
+  display: none !important;
+}
+
+#oxy_howto_maker_metabox .inside .button-danger-outline {
+  color: var(--oxy-howto-color-red-dark) !important;
+  border-color: var(--oxy-howto-color-red-dark) !important;
+  background: var(--oxy-howto-color-white) !important;
+}
+
+#oxy_howto_maker_metabox .inside .button-danger-outline:hover {
+  background: var(--oxy-howto-color-gray-lightest) !important;
+}
+
+#oxy_howto_maker_metabox h3 {
+  border-bottom: 1px solid var(--oxy-howto-color-gray-lighter);
+  padding-bottom: 8px;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-supply .delete-supply,
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-tool .delete-tool {
+  width: 42px;
+  min-width: unset;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+#oxy_howto_maker_metabox .inside [class^="oxy-howto-maker-add-steptext"] .delete-direction,
+#oxy_howto_maker_metabox .inside [class^="oxy-howto-maker-add-steptip"] .delete-tip {
+  width: 5%;
+}
+
+#oxy_howto_maker_metabox .inside [class^="oxy-howto-maker-add-steptext"] .delete-direction,
+#oxy_howto_maker_metabox .inside [class^="oxy-howto-maker-add-steptip"] .delete-tip {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-supply .delete-supply i,
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-tool .delete-tool i,
+#oxy_howto_maker_metabox .inside [class^="oxy-howto-maker-add-steptext"] .delete-direction i,
+#oxy_howto_maker_metabox .inside [class^="oxy-howto-maker-add-steptip"] .delete-tip i {
+  vertical-align: middle;
+}
+
+#oxy_howto_maker_metabox .inside [class^="oxy-howto-maker-add-steptext"],
+#oxy_howto_maker_metabox .inside [class^="oxy-howto-maker-add-steptip"] {
+  margin-bottom: 0;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-supply input[type="text"]:last-of-type,
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-tool input[type="text"]:last-of-type {
+  margin-top: 5px;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-supply > label,
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-tool > label {
+  margin-top: 5px;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-w-100 {
+  width: 100%;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-w-100 input[type="text"],
+#oxy_howto_maker_metabox .inside .oxy-w-100 input[type="number"],
+#oxy_howto_maker_metabox .inside .oxy-w-100 input[type="url"],
+#oxy_howto_maker_metabox .inside .oxy-w-100 select {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #oxy_howto_maker_metabox .inside .oxy-w-100 input[type="text"],
+  #oxy_howto_maker_metabox .inside .oxy-w-100 input[type="number"],
+  #oxy_howto_maker_metabox .inside .oxy-w-100 input[type="url"],
+  #oxy_howto_maker_metabox .inside .oxy-w-100 select {
+    width: 500px;
+  }
+}
+
+#oxy_howto_maker_metabox .inside .oxy-w-100 textarea {
+  width: 100%;
+}
+
+#oxy_howto_maker_metabox .inside .postbox {
+  margin: 0 !important;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-w-100.oxy-howto-maker-add-tool input[type="text"],
+#oxy_howto_maker_metabox .inside .oxy-w-100.oxy-howto-maker-add-supply input[type="text"] {
+  width: calc(100% - 50px);
+}
+
+@media (min-width: 768px) {
+  #oxy_howto_maker_metabox .inside .oxy-w-100.oxy-howto-maker-add-tool input[type="text"],
+  #oxy_howto_maker_metabox .inside .oxy-w-100.oxy-howto-maker-add-supply input[type="text"] {
+    max-width: 500px;
+  }
+}
+
+#oxy_howto_maker_metabox .inside select {
+  margin-bottom: 0;
+  border: 1px solid var(--oxy-howto-color-gray-dark) !important;
+}
+
+#oxy_howto_maker_metabox .inside textarea {
+  height: 70px;
+}
+
+#oxy_howto_maker_metabox .inside label {
+  display: block;
+}
+
+#oxy_howto_maker_metabox .inside button.oxy-howto-maker-button,
+#oxy_howto_maker_metabox .inside a.oxy-howto-maker-button {
+  min-width: 180px;
+  vertical-align: bottom;
+}
+
+#oxy_howto_maker_metabox .inside .delete-direction,
+#oxy_howto_maker_metabox .inside .delete-tip {
+  vertical-align: top !important;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-step {
+  padding-left: 10px;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-step:not(:last-of-type) > div::after {
+  content: '';
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  height: 1px;
+  background-color: var(--wp-admin-theme-color-darker-20);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#oxy_howto_maker_metabox .inside .oxy-howto-maker-add-step > div > .oxy-howto-maker-add-step-x {
+  height: 38px;
+  font-size: 14px;
+  font-weight: bold;
+  border-width: 2px;
+  min-width: 13%;
+  margin-top: 20px;
+}
+
+#oxy_howto_maker_metabox .inside img[class^="oxy-howto-maker-step-image-img"] {
+  max-width: 300px;
+  height: auto;
+  margin-top: 6px;
+}
+
+#oxy_howto_maker_metabox .inside button[class^="oxy-howto-maker-step-image"] {
+  margin-top: 5px !important;
+}
+
+#oxy_howto_maker_metabox #oxy-howto-maker-total-time > label {
+  display: inline-block;
+}
+
+#oxy_howto_maker_metabox #oxy-howto-maker-total-time > label > input {
+  width: 91px;
+}
+
+/* Menu Start */
+#adminmenu #toplevel_page_oxy-howto-maker .wp-menu-image img {
+  padding-top: 5px;
+}
+
+/* Settings Start */
+.oxy-howto-maker-head-title {
+  background: var(--oxy-howto-color-gray-lightest);
+  border-left: 5px solid var(--oxy-howto-color-gray-light);
+  padding: 10px 15px 15px 15px;
+  margin-bottom: 15px;
+}
+
+.oxy-howto-maker-each-section {
+  background: var(--oxy-howto-color-white);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px var(--oxy-howto-color-gray-lighter-2);
+}
+
+#oxy-howto-style-content {
+  text-align: left;
+  direction: ltr;
+}
